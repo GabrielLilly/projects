@@ -3,6 +3,7 @@
 Author: Gabriel Lilly
 Purpose: A bot designed to like tweets and follow users on Twitter
 """
+
 import time
 import tweepy
 
