@@ -17,6 +17,7 @@ api = tweepy.API(auth)
 user = api.me()
 
 
+# ------------------------------------------------------------------------------
 def limit_handler(cursor):
     """Pauses for-loop when it hits the rate limit"""
 
@@ -31,6 +32,7 @@ SEARCH_STRING = 'python'
 NUMBEROFTWEETS = 2
 
 
+# ------------------------------------------------------------------------------
 def like_tweets():
     """Like tweets on Twitter"""
 
@@ -42,8 +44,9 @@ def like_tweets():
             print(any_error.reason)
         except StopIteration:
             break
+            
 
-
+# ------------------------------------------------------------------------------
 def follow_back():
     """Follow users on Twitter"""
 
